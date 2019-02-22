@@ -31,6 +31,7 @@ public class MainDemoIO {
 /*        //8.使用CacheThreadPool方式创建线程池
         runCachedThreadPool();*/
 
+        System.out.println("this is test");
     }
 
     /**

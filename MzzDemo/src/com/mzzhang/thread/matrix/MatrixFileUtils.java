@@ -1,6 +1,6 @@
 package com.mzzhang.thread.matrix;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -40,12 +40,12 @@ public class MatrixFileUtils {
 //            lines.add(sb.toString());
         }
 
-        try {
-            FileUtils.writeStringToFile(file,sb.toString(),"UTF-8");
-//            FileUtils.writeLines(file,"UTF-8",sb.toString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            FileUtils.writeStringToFile(file,sb.toString(),"UTF-8");
+////            FileUtils.writeLines(file,"UTF-8",sb.toString());
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
     }
 
